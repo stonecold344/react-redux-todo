@@ -1,0 +1,40 @@
+.item {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.trash {
+  width: 40px;
+  border-color: black;
+}
+.trash:hover {
+  border-color: black;
+  background: rgb(233, 70, 70);
+}
+
+.edit {
+  width: 40px;
+  border-color: black;
+}
+.edit:hover {
+  border-color: black;
+  background: rgb(20, 177, 250);
+}
+
+.check {
+  width: 40px;
+  border-color: black;
+}
+.check:hover {
+  border-color: black;
+  background: rgb(13, 92, 46);
+}
+
+.list-group-item li[data-toggle="tooltip"]{
+    border-color:blue;
+}
